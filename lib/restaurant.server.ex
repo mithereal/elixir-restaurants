@@ -9,5 +9,11 @@ defmodule Resturant.Server do
 			status: :ok,
 			hours: [],
 			meta: []
+			
+@doc "Get list of all Menu items"
+def menu() do
+
+
+end
 
 end
