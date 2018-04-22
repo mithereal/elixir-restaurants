@@ -17,7 +17,7 @@ def start(hash) do
 end
 
 
-def stop_quote(hash) do
+def stop(hash) do
   case Registry.lookup(@registry_name,  hash) do
     [] -> :ok
     [{pid, _}] ->
